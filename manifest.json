@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "MailCategorizer",
+  "version": "1.0",
+  "description": "An extension to enforce email labeling in Gmail based on GDPR-sensitive data and communication types.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://mail.google.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
