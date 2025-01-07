@@ -30,6 +30,10 @@
 1. **Compose an Email**: Open Gmail and click **Compose**.
 2. **Select a Label**: Choose from suggested or manual options before sending.
 3. **Send the Email**: The label is added to the email body.
+<<<<<<< HEAD
+=======
+![image](https://github.com/user-attachments/assets/1b826ff2-406d-4c3c-9d89-4863005d4b12)
+>>>>>>> 6a4021620868943b95fe4312a2433b0a86211dc5
 
 ## 🌍 Future Roadmap
 - Support for Outlook, Yahoo Mail, Edge, Firefox, and Safari.
